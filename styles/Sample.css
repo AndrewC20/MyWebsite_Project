@@ -1,0 +1,196 @@
+html
+{
+    background: black;
+}
+
+nav
+{
+    
+    background-color: black; 
+    padding: 1px;
+    width: 100%;
+}
+nav ul
+{
+    text-align: center;
+    font-size: 1.5em;
+
+}
+nav ul li
+{
+   
+    background-color: red; /* Grey*/
+    display:inline;
+    padding: 20px;
+   
+   
+   
+}
+nav ul li a
+{
+    padding: 75px;
+    color: white;
+    text-decoration: none;        
+}
+nav ul li:hover
+{
+    background-color: blue; /*Dark Grey*/
+}
+nav ul li:active
+{
+    background-color: green;
+}
+
+header
+{
+    background-image:  url(../Images/Game.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 200px;
+    color: navajowhite;
+    border: 1px solid blue;   
+}
+h1
+{
+
+    color: red;
+    font-weight: bold;
+    text-align:left;
+}
+h2
+{
+    color: white;
+    font-weight: bold;
+}
+h3
+{
+    padding-top: 40px;
+    text-align: left;
+    color: white;
+    font-weight: bold;
+}
+#footer
+{
+    padding:  10px;
+    background-color: #000000;
+    text-align: center;
+    color: white;
+}
+
+table
+{
+    width: 100%;
+    border: black solid 1px;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 20px;
+    
+}
+th, tr, td
+{
+    border:black solid 1px;
+    text-align: left;
+}
+body
+{
+    font-family: sans-serif; 
+   
+}
+footer
+{
+   
+    clear: both;
+    text-align: center;
+    border: 1px solid orange;
+    position: relative;
+    padding: 0;
+    margin: 0px;
+    border: 0px;
+    width: 100%;
+    color: white;  
+    background-color: red;
+}
+footer nav
+{
+    background-color: red; 
+    padding: 0px;
+}
+footer nav ul
+{
+    text-align: center;
+    font-size: 1.2em;             
+}
+footer nav ul li
+{
+    display:contents;
+}
+footer nav ul li a
+{
+    color: white;
+    text-decoration: none;        
+}
+
+.fullWidthContent
+{
+    width: 70%;
+}
+
+.SectionDisplay
+{
+    border: black solid 1px;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 100px;
+    text-align: center;
+}
+
+.content 
+{
+    float: left;
+    width: 65%;
+    margin-right: 15px;
+    border: 1px solid grey;
+    color: white;
+    font-weight: bold;
+   
+}
+.top_Game_Content 
+{
+    float: left;
+   
+    margin-right: 15px;
+    border: 1px solid grey;
+    color: white;
+    font-weight: bold;
+    width: 100%
+}
+
+aside {
+    border: 1px solid green;
+    width: 32%;
+    float: right;
+    color: white;
+}
+
+.col_detail {
+    column-count: 2;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+    color: white;
+}
+
+section 
+{
+    text-align: center;
+}
+#active
+{
+    background-color: green;
+}
+
+
+
+.fullWidthContent_page2 {
+    width: 45%;
+}
