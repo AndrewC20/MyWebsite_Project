@@ -2,14 +2,14 @@
 <!-- Comments
 	Author: Andrew Casey
 	Date Created 27/02/2020
-	Page Description: 
+	Page Description: Shows some PC's and descriptions.
 	Modified 06/03/2020 Bla Bla -->
 	
 	<html lang = "en">  <!-- Declare the primary language for each web page -->
 	<head>
 		<meta charset = "utf-8" /> <!-- 8 bit character encoding capable of encoding all possible characters -->
-		<meta name ="description" content = "Food Website">
-		<meta name = "keywords" content = "Home, Menu, Food, Sligo">
+		<meta name ="description" content = "Game Showcase Website">
+		<meta name = "keywords" content = "Computers, Gaming, Games">
 		<meta name = "author" content = "Andrew Casey">
 		<title> Game Spot </title>
 		<link rel = "stylesheet" type = "text/css" href = "styles/Sample.css"/>
@@ -17,47 +17,46 @@
 	</head>
 	<body> <!-- Body tag Start of Body section display on screen -->	
 		<header>
-            <a name = "pagetop"></a> 
+            <a id = "pagetop"></a> 
             <!-- inline styling for image to the logo -->           
             <img style="float: left; height: 200px; width: 300px;" src="Images/Game_Logo.png" alt="logo">
 			<h1>Spot.</h1>	
 		</header>
+        <main> <!-- Main wrapper tag that goes around your main content -->	
         <nav>
             <ul>
                 <li> <a href = "Index.html"> Home </a></li> <!-- Listing -->
                 <li > <a href = "Top_Game.html"> Top Games </a></li> <!-- Listing -->
-                <li> <a href = ""> Game of the week </a></li> <!-- Listing -->
+                <li> <a href = "Game_of_the_Week.html"> Game of the week </a></li> <!-- Listing -->
                 <li id = "active"> <a href = "Top_PC.html"> Top Pc</a></li> <!-- Listing -->
                 <li> <a href = ""> More </a></li> <!-- Listing -->
-                <li> <a href = ""> About Us</a></li> <!-- Listing -->
+                <li> <a href = "Contact_Us.html"> Contact Us</a></li> <!-- Listing -->
             </ul>
         </nav>
        <section class ="top_Game_Content">
             <section class="aboutUs">
-                <h2>Top Games</h2>
-                <img class= "fullWidthContent_page2" src = "Images/Top_PC_Top_Image.jpg" id = "bigPic" alt ="Front"/>    
+                <h2>Top PC</h2>
+                <img class= "fullWidthContent_page2" src = "Images/Top_PC_Top_Image.jpg" id = "bigPic" alt ="Top Image"/>    
             </section> 
         </section>
      
         <section class = "top_Game_Content">
             <section class = "aboutUs">
-                <h2>Games </h2>
+                <h2>High End PC </h2>
                 <h3> The Corsair 500</h3>
                 <section class ="col_detail">
-                    <img src ="Images/New_Corsair.jpg" alt ="Game" width ="100%" height="500px";/>
+                    <img src ="Images/New_Corsair.jpg" width ="100%" height="500px" alt="PC Image"/>
                     <p>The Corsair 500 Lorem Ipsum is a great product the That can run full 1080p Blip Blip Tennis and over 120fps and will start to repeat on what its about. what you say? The Corsair 500 Lorem Ipsum is a great product the will start to repeat on what its about. what you say? The Corsair 500 Lorem Ipsum is a great product the That can run full 1080p Blip Blip Tennis and over 120fps and will start to repeat on what its about. what you say? The Corsair 500 Lorem Ipsum is a great product the will start to repeat on what its about. what you say? The Corsair 500 Lorem Ipsum is a great product the That can run full 1080p Blip Blip Tennis and over 120fps and will start to repeat on what its about. what you say? The Corsair 500 Lorem Ipsum is a great product the will start to repeat on what its about. what you say? The Corsair 500 Lorem Ipsum is a great product the That can run full 1080p Blip Blip Tennis and over 120fps and will start to repeat on what its about. what you say? The Corsair 500 Lorem Ipsum is a great product the will start to repeat on what its about. what you say? The Corsair 500 Lorem Ipsum is a great product the That can run full 1080p Blip Blip Tennis and over 120fps and will start to repeat on what its about. what you say? The Corsair 500 Lorem Ipsum is a great product the will start to repeat on what its about. what you say?
                   </p>
                 </section>
+                <h2>Low End PC </h2>
                 <h3>The Classic IBM 1</h3>
                 <section class="col_detail">
-                    <img src ="Images/Classic_PC.jpg" alt ="Game" width ="100%" height="500px";/>
+                    <img src ="Images/Classic_PC.jpg" width ="100%" height="500px" alt="PC Image"/>
                     <p> Classic as it comes the classic PC has none of it. it Can bearly run Blip Blip Tennis at 60fps and it loads on and on till it starts to repeat itself about the Classic as it comes the classic PC has none of it. it Can bearly run Blip Blip Tennis at 60fps and it loads on and on till it starts to repeat itself about the Classic as it comes the classic PC has none of it. it Can bearly run Blip Blip Tennis at 60fps and it loads on and on till it starts to repeat itself about the Classic as it comes the classic PC has none of it. it Can bearly run Blip Blip Tennis at 60fps and it loads on and on till it starts to repeat itself about the Classic as it comes the classic PC has none of it. it Can bearly run Blip Blip Tennis at 60fps and it loads on and on till it starts to repeat itself.</p>
                 </section>
             </section>
         </section>
- 
-		<main> <!-- Main wrapper tag that goes around your main content -->	
-      
         </main>
         
         <footer> <!-- Footer grouping of content for content for the bottom of the screen and will need css to place at the bottom -->
@@ -66,13 +65,13 @@
 			<ul>
                 <li><a href ="home.html"> Home</a></li>
                 <li><a href ="Top_Game.html"> Top Games</a></li>
-                <li><a href =""> Game of the Week</a></li>
+                <li><a href ="Game_of_the_Week.html"> Game of the Week</a></li>
                 <li><a href ="Top_PC.html"> Top PC</a></li>
                 <li><a href =""> More</a></li>
-                <li><a href =""> Abourt Us</a></li>
+                <li><a href ="Contact_Us.html"> Contact Us</a></li>
             </ul>	
             </nav>
-            <p>&copy; Game 2020</p>
+            <p class="copyright">&copy; Game 2020</p>
         </footer>
 	</body>
 	</html>

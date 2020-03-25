@@ -4,8 +4,7 @@ html
 }
 
 nav
-{
-    
+{   
     background-color: black; 
     padding: 1px;
     width: 100%;
@@ -13,22 +12,18 @@ nav
 nav ul
 {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.6em;
 
 }
 nav ul li
-{
-   
+{  
     background-color: red; /* Grey*/
     display:inline;
-    padding: 20px;
-   
-   
-   
+    padding: 20px;  
 }
 nav ul li a
 {
-    padding: 75px;
+    padding:inherit;
     color: white;
     text-decoration: none;        
 }
@@ -40,7 +35,6 @@ nav ul li:active
 {
     background-color: green;
 }
-
 header
 {
     background-image:  url(../Images/Game.jpg);
@@ -69,14 +63,6 @@ h3
     color: white;
     font-weight: bold;
 }
-#footer
-{
-    padding:  10px;
-    background-color: #000000;
-    text-align: center;
-    color: white;
-}
-
 table
 {
     width: 100%;
@@ -96,9 +82,28 @@ body
     font-family: sans-serif; 
    
 }
-footer
+section 
 {
-   
+    text-align: center;
+}
+p
+{
+    text-align: left;
+}
+aside 
+{
+    border: 1px solid green;
+    width: 32%;
+    float: right;
+    color: black;
+    background: white;
+}
+aside h2
+{
+   color: black; 
+}
+footer
+{ 
     clear: both;
     text-align: center;
     border: 1px solid orange;
@@ -112,7 +117,7 @@ footer
 }
 footer nav
 {
-    background-color: red; 
+    background-color: white; 
     padding: 0px;
 }
 footer nav ul
@@ -126,7 +131,7 @@ footer nav ul li
 }
 footer nav ul li a
 {
-    color: white;
+    color: black;
     text-decoration: none;        
 }
 
@@ -164,33 +169,35 @@ footer nav ul li a
     font-weight: bold;
     width: 100%
 }
-
-aside {
-    border: 1px solid green;
-    width: 32%;
-    float: right;
-    color: white;
-}
-
-.col_detail {
+.col_detail 
+{
     column-count: 2;
     column-rule: 1px solid white;
     column-gap: 50px;
     padding: 2px;
     color: white;
 }
-
-section 
-{
-    text-align: center;
-}
 #active
 {
     background-color: green;
 }
-
-
-
-.fullWidthContent_page2 {
+.fullWidthContent_page2 
+{
     width: 45%;
+}
+.copyright 
+{
+    text-align: center
+}
+#footer
+{
+    padding:  10px;
+    background-color: #000000;
+    text-align: center;
+    color: white;
+}
+
+.Click_text 
+{
+   text-align: center;
 }
